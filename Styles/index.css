@@ -18,13 +18,11 @@ header{
     padding-top: 5rem;
 }
 .logo a img {
-    height: 150px;
+    height: 135px;
     border-radius: 50%;
 
 }
-.logo a img:hover {
-    background-color:none;
-}
+
 .nav-items {
 display: flex;
 justify-content:space-evenly;
@@ -42,9 +40,7 @@ border-radius: 15px;
     text-decoration: none;
     font-size: 17px;
 }
-.nav-items a:hover {
-    background-color: green;
-}
+
 
 .nav-items a.split {
     float: right;
