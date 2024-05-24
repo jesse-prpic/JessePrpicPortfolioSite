@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: linear-gradient(white, grey);
 }
 header{
     background-color: var(--primary-color);
@@ -20,7 +21,6 @@ header{
 .logo a img {
     height: 135px;
     border-radius: 50%;
-
 }
 
 .nav-items {
@@ -41,9 +41,37 @@ border-radius: 15px;
     font-size: 17px;
 }
 
-
 .nav-items a.split {
     float: right;
+}
+h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center; 
+}
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 16px;
+
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+.social-media a i{
+    font-size: 24px;
+    color: black
+    
+}
+.info{
+    color: black;
+}
+.info p{
+    margin: 5px 0;
 }
 @media screen and (min-width: 600px){
     header{
