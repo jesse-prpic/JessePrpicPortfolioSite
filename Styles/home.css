@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.profile-photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px grey;
+}
+.profile-photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (min-width: 600px){
+    .profile-photo{
+        display: static;
+        flex-wrap: wrap;
+        justify-content: start;
+        ;
+        
+
+    }
+    
+}
