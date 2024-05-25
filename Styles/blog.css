@@ -1,3 +1,35 @@
-main {
-    background-image:url(../Images/greyscalecoding.jpg)
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px
 }
+
+.blog-heading{
+    background-color: rgb(128, 128, 128, 0.5);
+    padding:16px;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+article {
+    background-color: rgb(128, 128, 128, 0.5);
+    padding: 16px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    text-align: center;
+    margin: 16px 0;
+    border-radius: 15px;
+
+}
+
+.greyscalecoding{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+}
+p{
+    text-align: justify;
+    
+}
+

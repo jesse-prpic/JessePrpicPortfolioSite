@@ -8,7 +8,9 @@ main {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: 5px solid white;
     box-shadow: 4px 4px 4px grey;
+
 }
 .profile-photo {
     display: flex;
@@ -17,16 +19,7 @@ main {
 }
 
 @media screen and (min-width: 600px){
-    .profile-photo{
-        display: static;
-        flex-wrap: wrap;
-        justify-content: start;
-    }
-    .profile-photo img {
-        float: left;
-        width: 400px;
-        height: 400px;
-    }
+
 
     
 }
