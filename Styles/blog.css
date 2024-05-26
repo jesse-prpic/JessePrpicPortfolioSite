@@ -5,12 +5,14 @@ main{
     gap: 32px
 }
 
-.blog-heading{
+.blog-introduction{
     background-color: rgb(128, 128, 128, 0.5);
     padding:16px;
     margin: 40px;
     border-radius: 15px;
+    justify-content: center;
 }
+
 
 article {
     background-color: rgb(128, 128, 128, 0.5);
@@ -32,12 +34,4 @@ p{
     text-align: justify;
     max-width: 40ch;
     
-}
-.Blog {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgb(141, 142, 142);
-    text-align: center;
-    align-items: center;
 }
