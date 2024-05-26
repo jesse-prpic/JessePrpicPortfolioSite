@@ -1,7 +1,7 @@
 main{
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
     gap: 32px
 }
 
@@ -30,6 +30,14 @@ article {
 }
 p{
     text-align: justify;
+    max-width: 40ch;
     
 }
-
+.Blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(141, 142, 142);
+    text-align: center;
+    align-items: center;
+}
