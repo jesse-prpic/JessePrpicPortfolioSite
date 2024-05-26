@@ -14,13 +14,12 @@ body {
 }
 header{
     background-color: var(--primary-color);
-    min-width: 100vw;
     text-align: center;
     padding: 12px;
     padding-top: 5rem;
 }
 .logo a img {
-    height: 120px;
+    height: 100px;
     border-radius: 12%;
     border: 1px solid black;
     box-shadow: 1px 1px 5px;
@@ -31,7 +30,7 @@ display:flex;
 justify-content:space-around;
 align-items: center;
 height: 40px;
-width: 98%;
+width: 96%;
 background-color: white;
 border-radius: 15px;
 box-shadow: 5px 5px 5px;

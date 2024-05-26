@@ -16,10 +16,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 3rem;
 }
-
-@media screen and (min-width: 600px){
-
-
-    
+.introduction {
+    max-width: 35ch;
 }
