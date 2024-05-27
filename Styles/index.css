@@ -7,6 +7,7 @@
 body {
     margin: 0;
     min-height: 100vh;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,7 +28,7 @@ header{
 
 .nav-items {
 display:flex;
-justify-content: space-evenly;
+justify-content: space-around;
 align-items: center;
 height: 40px;
 width: 100%;
@@ -35,19 +36,19 @@ background-color: white;
 border-radius: 15px;
 box-shadow: 5px 5px 5px;
 list-style: none;
-z-index: 1;
-
+z-index: 1
 
 }
 .nav-link {
     text-decoration: none;
-    padding: 3px;
+    padding: 8px;
     border-radius: 1rem;
     transition: all 0.3s ease-in-out;
+
 }
 nav a:hover{
-    background-color: grey;
-    color: grey;
+    background-color: white;
+    color: black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-weight: 800;
 }
@@ -56,10 +57,8 @@ nav a:hover{
     color: black;
     background-color: rgb(214, 210, 210);
     border-radius: 15px;
-    text-align: center;
     text-decoration: none;
-    font-size: 17px;
-    z-index: 1;
+    font-size: 16px;
 }
 
 
@@ -95,14 +94,13 @@ footer{
 .info p{
     margin: 5px 0;
 }
-@media screen and (min-width: 600px){
+@media screen and (width > 600px) {
     header{
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
     }
-    h1{
-        min-width: 10px;
+    .social-media{
+        justify-content: left;
     }
-
 }
