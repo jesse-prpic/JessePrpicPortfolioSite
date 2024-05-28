@@ -25,23 +25,25 @@ main{
     padding: 24px;
     border-radius: 8px;
     text-align: center;
-    grid-column: 3 / 11;
+    grid-column: 2 / 12;
     grid-row: 4 / -1;
     margin-bottom: 16px;
 }
-.myblog{
+.myprojects{
     text-align: justify;
 }
-.blog {
+.projects {
     display: flex;
     position:relative;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.6);
     padding: 14px;
     border-radius: 16px;
-    margin: 30px
+    margin: 30px;
+    
+    
   }
   
-  .blog-image {
+  .project-image {
     display: block;
     width: 300px;
     height: 300px;
@@ -62,11 +64,11 @@ main{
     border-radius: 15px;
   }
   
-  .blog:hover .overlay {
+  .projects:hover .overlay {
     opacity: 0.7;
   }
   
-  .blog-text {
+  .project-text {
     color: black;
     font-size: 20px;
     position: absolute;
@@ -81,7 +83,7 @@ main{
   }
 
 @media screen and (width > 600px){
-    .blog{
+    .services{
         display: flex;
         flex: row;
         flex-wrap:wrap;
@@ -90,7 +92,7 @@ main{
         align-items: center;
         margin: 10p;
     }
-    .blog-image{
+    .project-image{
       width:400px;
       height: 400px;
     }
