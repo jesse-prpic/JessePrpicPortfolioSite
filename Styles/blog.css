@@ -25,7 +25,7 @@ main{
     padding: 24px;
     border-radius: 8px;
     text-align: center;
-    grid-column: 3 / 11;
+    grid-column: 2 / 12;
     grid-row: 4 / -1;
     margin-bottom: 16px;
 }

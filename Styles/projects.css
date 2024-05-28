@@ -11,7 +11,6 @@ main{
     grid-template-rows: repeat(12,1fr);
 }
 .heading {
-    background-color: lightblue;
     text-align: center;
     grid-column: 1 / 13;
     grid-row: 1 / 5;
@@ -38,9 +37,7 @@ main{
     background-color: rgb(255, 255, 255, 0.6);
     padding: 14px;
     border-radius: 16px;
-    margin: 30px;
-    
-    
+    margin: 30px; 
   }
   
   .project-image {
