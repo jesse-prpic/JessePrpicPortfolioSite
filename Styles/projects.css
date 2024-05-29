@@ -5,32 +5,13 @@ main{
     gap: 32px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12,1fr);
-}
-.heading {
-    text-align: center;
-    grid-column: 1 / 13;
-    grid-row: 1 / 5;
-    margin: 0;
-    z-index: -1;
-}
-
-.description {
-    background-color: rgb(255, 255, 255,0.5);
-    border: 1px solid black;
-    padding: 24px;
-    border-radius: 8px;
-    text-align: center;
-    grid-column: 2 / 12;
-    grid-row: 4 / -1;
-    margin-bottom: 16px;
-}
 .myprojects{
     text-align: justify;
 }
+.heading h1{
+  font-size: 30px
+}
+
 .projects {
     display: flex;
     position:relative;

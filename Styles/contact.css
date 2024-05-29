@@ -4,6 +4,11 @@ main {
     align-items: center;
     margin-bottom: 20px;
 }
+.heading h1{
+    font-size: 30px;
+    
+}
+
 .form-elements{
     display: flex;
     flex-direction: column;
@@ -44,9 +49,38 @@ main {
     background-color: red
 }
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    margin: 25px;
+    align-content:space-evenly;
+    text-align: center;
+    width:fit-content;
+    height: fit-content;
+    padding: 10px;
+    gap: 5rem;
+}
+.contact-form{
+    background-color: grey;
+    padding:20px;
+    border-radius: 15px;
+}
+.contact-details{
+    background-color: grey;
+    padding:20px;
+    border-radius: 15px;
+    height: 425px;
+    width: 250px
+}
+
 @media screen and (min-width: 600px){
     form{
         width:500px;
+        display: flex;
+        width: fit-content;
+        gap: 5rem;
     }
     .form-elements{
         flex-direction: row;

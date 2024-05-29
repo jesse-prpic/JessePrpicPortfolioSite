@@ -5,28 +5,11 @@ main{
     gap: 32px;
 }
 
-.heading {
-    background-color: lightblue;
-    text-align: center;
-    grid-column: 1 / 13;
-    grid-row: 1 / 5;
-    margin: 0;
-    z-index: -1;
-}
-
-.description {
-    background-color: rgb(255, 255, 255,0.5);
-    border: 1px solid black;
-    padding: 24px;
-    border-radius: 8px;
-    text-align: center;
-    grid-column: 2 / 12;
-    grid-row: 4 / -1;
-    margin-bottom: 16px;
-}
-
 .myblog{
     text-align: justify;
+}
+.heading h1{
+    font-size: 30px;
 }
 .blog {
     display: flex;
@@ -66,10 +49,10 @@ main{
     opacity: 0.7;
   }
 
-  .blog:hover, .blog:active{
+  .blog:hover{
     box-shadow: 5px 5px 5px white;
     animation-name: bounce;
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
   }
   
   .blog-text {
@@ -101,6 +84,7 @@ main{
       height: 400px;
     }
 }
+/* Animation to make aspects bounce */
 @keyframes bounce {
     0%   { transform: translateY(0); }
     50%  { transform: translateY(-50px); }
