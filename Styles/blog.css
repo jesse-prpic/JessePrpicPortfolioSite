@@ -73,9 +73,12 @@ main{
 
   .blog:hover{
     box-shadow: 5px 5px 5px white;
-
+    animation-name: bounce;
+    animation-timing-function:ease;
   }
-  .blog:hover {
+
+.blog:active{
+    box-shadow: 5px 5px 5px white;
     animation-name: bounce;
     animation-timing-function:ease;
 }

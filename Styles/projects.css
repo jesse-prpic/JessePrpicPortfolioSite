@@ -71,9 +71,12 @@ main{
   }
   .projects:hover{
     box-shadow: 5px 5px 5px white;
-
+    animation-name: bounce;
+    animation-timing-function:ease;
   }
-  .projects:hover {
+
+.projects:active{
+    box-shadow: 5px 5px 5px white;
     animation-name: bounce;
     animation-timing-function:ease;
 }
