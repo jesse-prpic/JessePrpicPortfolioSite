@@ -38,7 +38,9 @@ main{
     background-color: white;
     padding: 14px;
     border-radius: 16px;
-    margin: 30px
+    margin: 30px;
+    box-shadow: 5px 5px 5px black;
+    transition: box-shadow 1s;
   }
   
   .blog-image {
@@ -64,6 +66,11 @@ main{
   
   .blog:hover .overlay {
     opacity: 0.7;
+  }
+
+  .blog:hover{
+    box-shadow: 5px 5px 5px white;
+
   }
   
   .blog-text {

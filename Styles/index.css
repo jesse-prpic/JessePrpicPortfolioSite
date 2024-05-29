@@ -101,6 +101,9 @@ footer{
         justify-content: space-between;
     }
     .social-media{
-        justify-content: left;
+        display: flex;
+        justify-content:center;
+
+
     }
 }
