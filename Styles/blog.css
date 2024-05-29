@@ -5,11 +5,6 @@ main{
     gap: 32px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12,1fr);
-}
 .heading {
     background-color: lightblue;
     text-align: center;
@@ -29,6 +24,7 @@ main{
     grid-row: 4 / -1;
     margin-bottom: 16px;
 }
+
 .myblog{
     text-align: justify;
 }
@@ -41,7 +37,7 @@ main{
     margin: 30px;
     box-shadow: 5px 5px 5px black;
     animation-duration: 2s;
-    animation-iteration-count:initial;
+    animation-iteration-count:infinite;
     transform-origin:bottom;
 }
  
@@ -73,7 +69,7 @@ main{
   .blog:hover, .blog:active{
     box-shadow: 5px 5px 5px white;
     animation-name: bounce;
-    animation-timing-function:ease;
+    transition: all 0.4s ease;
   }
   
   .blog-text {
