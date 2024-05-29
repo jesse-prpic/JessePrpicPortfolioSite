@@ -69,17 +69,11 @@ main{
   .projects:hover .overlay {
     opacity: 0.7;
   }
-  .projects:hover{
+  .projects:hover, .projects:active{
     box-shadow: 5px 5px 5px white;
     animation-name: bounce;
     animation-timing-function:ease;
   }
-
-.projects:active{
-    box-shadow: 5px 5px 5px white;
-    animation-name: bounce;
-    animation-timing-function:ease;
-}
   
   .project-text {
     color: black;

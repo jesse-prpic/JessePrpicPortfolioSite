@@ -71,17 +71,11 @@ main{
     opacity: 0.7;
   }
 
-  .blog:hover{
+  .blog:hover, .blog:active{
     box-shadow: 5px 5px 5px white;
     animation-name: bounce;
     animation-timing-function:ease;
   }
-
-.blog:active{
-    box-shadow: 5px 5px 5px white;
-    animation-name: bounce;
-    animation-timing-function:ease;
-}
   
   .blog-text {
     color: black;
