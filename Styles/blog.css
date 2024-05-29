@@ -52,6 +52,7 @@ main{
   .blog:hover{
     box-shadow: 5px 5px 5px white;
     animation-name: bounce;
+    transform:var(bounce);
     transition: all 0.5s ease;
   }
   
