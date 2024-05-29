@@ -41,8 +41,11 @@ main{
     margin: 30px;
     box-shadow: 5px 5px 5px black;
     transition: box-shadow 1s;
-  }
-  
+    animation-duration: 2s;
+    animation-iteration-count:initial;
+    transform-origin:bottom;
+}
+ 
   .blog-image {
     display: block;
     width: 300px;
@@ -72,6 +75,10 @@ main{
     box-shadow: 5px 5px 5px white;
 
   }
+  .blog:hover {
+    animation-name: bounce;
+    animation-timing-function:ease;
+}
   
   .blog-text {
     color: black;
@@ -102,3 +109,8 @@ main{
       height: 400px;
     }
 }
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }

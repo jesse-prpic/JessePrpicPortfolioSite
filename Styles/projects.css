@@ -38,6 +38,11 @@ main{
     padding: 14px;
     border-radius: 16px;
     margin: 30px; 
+    box-shadow: 5px 5px 5px black;
+    transition: box-shadow 1s;
+    animation-duration: 2s;
+    animation-iteration-count:initial;
+    transform-origin:bottom;
   }
   
   .project-image {
@@ -64,6 +69,14 @@ main{
   .projects:hover .overlay {
     opacity: 0.7;
   }
+  .projects:hover{
+    box-shadow: 5px 5px 5px white;
+
+  }
+  .projects:hover {
+    animation-name: bounce;
+    animation-timing-function:ease;
+}
   
   .project-text {
     color: black;
@@ -93,4 +106,9 @@ main{
       width:400px;
       height: 400px;
     }
+  }
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
 }
