@@ -5,6 +5,7 @@ main {
     margin: 32px;
 }
 
+
 .profile-photo img{
     width: 200px;
     height: 200px;
@@ -19,14 +20,47 @@ main {
     justify-content: center;
     margin: 3rem;
 }
+.home-introduction{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+    gap:15px;
+}
+
 .introduction {
+    display: flex;
     max-width: 35ch;
     background-color: rgb(255, 255, 255, 0.6);
     border-radius: 15px;
-    padding: 20px;
+    padding: 40px;
 }
+
 .intro-card{
     background-color: grey;
     padding:16px;
     border-radius: 20px;
 }
+.intro-bio{
+    display: flex;
+    max-width: 38ch;
+    background-color: grey;
+    border-radius: 15px;
+    padding: 20px;
+}
+.about-me{
+    display: flex;
+    padding: 40px;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 15px;
+}
+
+@media screen and (width > 600px){
+    .home-introduction{
+        flex-direction: row;
+        
+    }
+}
+    
