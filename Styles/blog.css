@@ -101,7 +101,6 @@ main{
         }
 }
 @media screen and (max-width: 1600px){
-    @media screen and (width < 1000px){
         .blog{
             display: flex;
             flex: row;
@@ -117,7 +116,6 @@ main{
         }
 }
     
-}
 /* Animation to make aspects bounce */
 @keyframes bounce {
     0%   { transform: translateY(0); }

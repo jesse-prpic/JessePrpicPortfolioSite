@@ -115,7 +115,7 @@ main {
         width: 100%;
     }
 }
-@media screen and (width > 8000px){
+@media screen and (width > 1000px){
     form{
     width:500px;
     display: flex;
