@@ -86,7 +86,7 @@ main{
     }
 }
 @media screen and (width < 1000px){
-        .blog{
+        .blog-container{
             display: flex;
             flex: row;
             flex-wrap:wrap;
@@ -101,7 +101,7 @@ main{
         }
 }
 @media screen and (max-width: 3100px){
-        .blog{
+        .blog-container{
             display: flex;
             flex: row;
             flex-wrap:wrap;
@@ -109,7 +109,6 @@ main{
             justify-content: space-around;
             align-items: center;
             margin: 10p;
-            background-color: red;
         }
         .blog-image{
           width:400px;
