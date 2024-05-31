@@ -114,7 +114,9 @@ main {
     .form-input {
         width: 100%;
     }
-@media screen and (width < 1700px){
+}
+@media screen and (width > 8000px){
+    form{
     width:500px;
     display: flex;
     width: fit-content;
