@@ -100,7 +100,7 @@ main{
           height: 400px;
         }
 }
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 3100px){
         .blog{
             display: flex;
             flex: row;
@@ -109,10 +109,11 @@ main{
             justify-content: space-around;
             align-items: center;
             margin: 10p;
+            background-color: red;
         }
         .blog-image{
-          width:800px;
-          height: 800px;
+          width:400px;
+          height: 400px;
         }
 }
 /* Animation to make aspects bounce */
