@@ -1,3 +1,4 @@
+/* Root menu of all pages */
 :root {
     --primary-color: rgb(132, 132, 131);
     --secondary-color: grey;
@@ -29,6 +30,7 @@ header{
     grid-row: 4 / -1;
     margin-bottom: 16px;
 }
+/* Grid  */
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);

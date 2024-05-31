@@ -98,8 +98,8 @@ main {
     height: 425px;
     width: 300px;
 }
-
-@media screen and (min-width: 600px){
+/* Media Quer for > 800px for tablet  */
+@media screen and (width > 800px){
     form{
         width:500px;
         display: flex;
@@ -107,10 +107,25 @@ main {
         gap: 5rem;
     }
     .form-elements{
+        display: flex;
         flex-direction: row;
         justify-content: space-between
     }
     .form-input {
         width: 100%;
     }
+@media screen and (width < 1700px){
+    width:500px;
+    display: flex;
+    width: fit-content;
+    gap: 5rem;
+}
+.form-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.form-input {
+    width: 100%;
+}
 }
