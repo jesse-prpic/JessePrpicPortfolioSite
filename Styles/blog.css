@@ -100,7 +100,7 @@ main{
           height: 400px;
         }
 }
-@media screen and (max-width: 3100px){
+@media screen and (width > 4100px){
         .blog-container{
             display: flex;
             flex: row;
