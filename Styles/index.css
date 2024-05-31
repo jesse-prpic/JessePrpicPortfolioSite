@@ -36,13 +36,14 @@ header{
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12,1fr);
 }
+/* Logo with Mongram Initials */
 .logo a img {
     height: 100px;
     border-radius: 12%;
     border: 1px solid black;
     box-shadow: 1px 1px 5px;
 }
-
+/* navigation bar */
 .nav-items {
 display:flex;
 justify-content: space-around;
@@ -85,7 +86,7 @@ h1{
    justify-content: center;
    text-align: justify; 
 }
-
+/* footer with social media and  */
 footer{
     background-color: var(--primary-color);
     text-align: center;
@@ -113,15 +114,8 @@ footer{
     border: 1px solid white;
     background-color: white;
     box-shadow: 5px 5px 5px white;
-
-
 }
-.info{
-    color: black;
-}
-.info p{
-    margin: 5px 0;
-}
+/* media queries */
 @media screen and (width > 600px) {
     header{
         display: flex;

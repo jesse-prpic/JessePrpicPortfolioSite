@@ -1,3 +1,4 @@
+/* Project design aspect */
 main{
     display:flex;
     flex-wrap: wrap;
@@ -11,7 +12,6 @@ main{
 .heading h1{
   font-size: 30px
 }
-
 .projects {
     display: flex;
     position:relative;
