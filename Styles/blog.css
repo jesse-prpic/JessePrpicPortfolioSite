@@ -111,11 +111,10 @@ main{
             margin: 10p;
         }
         .blog-image{
-          width:400px;
-          height: 400px;
+          width:800px;
+          height: 800px;
         }
 }
-    
 /* Animation to make aspects bounce */
 @keyframes bounce {
     0%   { transform: translateY(0); }
