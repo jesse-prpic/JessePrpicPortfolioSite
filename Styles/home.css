@@ -12,7 +12,6 @@ main {
     height: 200px;
     border-radius: 50%;
     border: 5px solid white;
-    box-shadow: 4px 4px 4px grey;
 
 }
 .profile-photo {
@@ -24,7 +23,6 @@ main {
 .home-introduction{
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
     border-radius: 20px;
     padding: 20px;
     width: 700px;
@@ -40,9 +38,12 @@ main {
 }
 
 .intro-card{
-    background-color: grey;
+    background-image: linear-gradient(grey, rgb(156, 152, 152));
     padding:16px;
     border-radius: 20px;
+}
+.intro-card:hover{
+    box-shadow: 5px 5px 5px white;
 }
 .intro-bio{
     display: flex;
@@ -50,6 +51,10 @@ main {
     background-color: grey;
     border-radius: 15px;
     padding: 20px;
+    background-image: linear-gradient(grey, rgb(156, 152, 152));
+}
+.intro-bio:hover{
+    box-shadow: 5px 5px 5px white;
 }
 .about-me{
     display: flex;

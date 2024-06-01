@@ -42,7 +42,7 @@ main {
 }
 #submit{
     height:40px;
-    background-color: white;
+    background-image: linear-gradient(grey, rgb(156, 152, 152));
     border:none;
     border-radius: 4px;
     min-width: 140px;
@@ -50,14 +50,14 @@ main {
 }
 #submit:hover {
     cursor: pointer;
-    background-color: white;
+    background-color: grey;
     border: 1px solid grey;
     box-shadow: 5px 5px 5px white;
 }
 /* Button to download resume */
 #resume{
     height:40px;
-    background-color: white;
+    background-image: linear-gradient(grey, rgb(156, 152, 152));
     border:none;
     border-radius: 4px;
     min-width: 140px;
@@ -66,7 +66,7 @@ main {
 }
 #resume:hover {
     cursor: pointer;
-    background-color: white;
+    background-color: grey;
     border: 1px solid grey;
     box-shadow: 5px 5px 5px white;
 }
@@ -74,14 +74,13 @@ main {
 .contact{
     display: flex;
     flex-direction: column;
-    background-color: white;
     border-radius: 15px;
     margin: 25px;
     align-content:space-evenly;
     text-align: center;
     width:fit-content;
     height: fit-content;
-    padding: 10px;
+
     gap: 5rem;
 }
 .contact:hover{
@@ -89,13 +88,13 @@ main {
 }
 
 .contact-form{
-    background-color: grey;
+    background-image: linear-gradient(grey, rgb(156, 152, 152));
     padding:20px;
     border-radius: 15px;
     width: 300px;
 }
 .contact-details{
-    background-color: grey;
+    background-image: linear-gradient(grey, rgb(156, 152, 152));
     padding:20px;
     border-radius: 15px;
     height: 425px;
