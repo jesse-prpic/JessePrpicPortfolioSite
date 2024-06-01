@@ -80,8 +80,8 @@ main {
     text-align: center;
     width:fit-content;
     height: fit-content;
-
     gap: 5rem;
+    text-decoration: none;
 }
 .contact:hover{
     box-shadow: 5px 5px 5px white;
