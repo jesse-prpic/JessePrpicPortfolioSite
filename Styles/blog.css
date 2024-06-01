@@ -24,6 +24,10 @@ main{
     animation-iteration-count:infinite;
     transform-origin:bottom;
 }
+.blog h2{
+    display: flex;
+    text-align: center;
+}
  
   .blog-image {
     display: block;
@@ -33,6 +37,7 @@ main{
   }
   
   .overlay {
+    display: flex;
     position: absolute;
     top: 0;
     bottom: 0;
