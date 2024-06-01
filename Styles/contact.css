@@ -39,6 +39,7 @@ main {
 /* Button to submit application */
 .btn-div{
     text-align:center;
+    text-decoration: none;
 }
 #submit{
     height:40px;
