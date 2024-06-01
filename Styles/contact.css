@@ -59,7 +59,7 @@ main {
     box-shadow: 5px 5px 5px white;
 }
 /* Button to download resume */
-#resume{
+.resume{
     height:40px;
     background-image: linear-gradient(rgb(156, 152, 152),grey);
     border:none;
@@ -71,7 +71,7 @@ main {
     color: black;
     
 }
-#resume:hover {
+.resume:hover {
     cursor: pointer;
     background-color: grey;
     border: 1px solid grey;
