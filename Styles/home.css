@@ -62,11 +62,33 @@ main {
     background-color: rgb(255, 255, 255, 0.6);
     border-radius: 15px;
 }
+h2{
+    background-color: rgb(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 17px;
+    width: 280px;
+}
+.a:hover{
+    background-color: rgb(227, 153, 153);
+}
+.b:hover{
+    background-color: rgb(237, 203, 140);
+}
+.c:hover{
+    background-color: rgb(179, 241, 179);
+}
+.d:hover{
+    background-color: rgb(173, 216, 230);
+}
+.e:hover{
+    background-color: rgb(198, 145, 198);
+}
 
 @media screen and (width > 600px){
     .home-introduction{
         flex-direction: row;
-        
     }
 }
     

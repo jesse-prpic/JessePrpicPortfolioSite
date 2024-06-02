@@ -67,9 +67,10 @@ main {
     min-width: 140px;
     font-size: 20px;
     margin-top: 120px;
+}
+.resume a{
     text-decoration: none;
     color: black;
-    
 }
 .resume:hover {
     cursor: pointer;

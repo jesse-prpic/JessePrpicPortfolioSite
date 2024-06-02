@@ -5,7 +5,7 @@ This is a portfolio website to display myself as an aspiring developer, througho
 
 ## Components
 
-### HEader
+### Header
 The header component is grey and the length of the screen with the navigation put over the top and in front of the header
 
 ### Navigation

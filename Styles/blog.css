@@ -1,129 +1,129 @@
 /* Blog design aspect */
 main{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    gap: 32px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 32px;
 }
 
 .myblog{
-    text-align: justify;
+  text-align: justify;
 }
 .heading h1{
-    font-size: 30px;
+  font-size: 30px;
 }
 .blog {
-    display: flex;
-    position:relative;
-    background-color: white;
-    padding: 14px;
-    border-radius: 16px;
-    margin: 30px;
-    box-shadow: 5px 5px 5px black;
-    animation-duration: 2s;
-    animation-iteration-count:infinite;
-    transform-origin:bottom;
+  display: flex;
+  position:relative;
+  background-color: white;
+  padding: 14px;
+  border-radius: 16px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px black;
+  animation-duration: 2s;
+  animation-iteration-count:infinite;
+  transform-origin:bottom;
 }
 .blog h2{
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
- 
-  .blog-image {
-    display: block;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-  }
-  
-  .overlay {
-    display: flex;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: white;
-    border-radius: 15px;
-  }
-  
-  .blog:hover .overlay {
-    opacity: 0.7;
-  }
 
-  .blog:hover{
-    box-shadow: 5px 5px 5px white;
-    animation-name: bounce;
-    transform:var(bounce);
-    transition: all 0.5s ease;
-  }
-  
-  .blog-text {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 250px;
-    height: 300px;
-    text-align: justify;
-  }
+.blog-image {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.overlay {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.blog:hover .overlay {
+  opacity: 0.7;
+}
+
+.blog:hover{
+  box-shadow: 5px 5px 5px white;
+  animation-name: bounce;
+  transform:var(bounce);
+  transition: all 0.5s ease;
+}
+
+.blog-text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 300px;
+  text-align: justify;
+}
 
 @media screen and (width > 600px){
-    .blog{
-        display: flex;
-        flex: row;
-        flex-wrap:wrap;
-        gap:10px;
-        justify-content: space-around;
-        align-items: center;
-        margin: 10p;
-    }
-    .blog-image{
-      width:400px;
-      height: 400px;
-    }
+  .blog{
+      display: flex;
+      flex: row;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content: space-around;
+      align-items: center;
+      margin: 10p;
+  }
+  .blog-image{
+    width:400px;
+    height: 400px;
+  }
 }
 @media screen and (width < 1000px){
-        .blog-container{
-            display: flex;
-            flex: row;
-            flex-wrap:wrap;
-            gap:10px;
-            justify-content: space-around;
-            align-items: center;
-            margin: 10p;
-        }
-        .blog-image{
-          width:400px;
-          height: 400px;
-        }
+      .blog-container{
+          display: flex;
+          flex: row;
+          flex-wrap:wrap;
+          gap:10px;
+          justify-content: space-around;
+          align-items: center;
+          margin: 10p;
+      }
+      .blog-image{
+        width:400px;
+        height: 400px;
+      }
 }
 @media screen and (width > 4100px){
-        .blog-container{
-            display: flex;
-            flex: row;
-            flex-wrap:wrap;
-            gap:10px;
-            justify-content: space-around;
-            align-items: center;
-            margin: 10p;
-        }
-        .blog-image{
-          width:400px;
-          height: 400px;
-        }
+      .blog-container{
+          display: flex;
+          flex: row;
+          flex-wrap:wrap;
+          gap:10px;
+          justify-content: space-around;
+          align-items: center;
+          margin: 10p;
+      }
+      .blog-image{
+        width:400px;
+        height: 400px;
+      }
 }
 /* Animation to make aspects bounce */
 @keyframes bounce {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-50px); }
-    100% { transform: translateY(0); }
-  }
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
