@@ -27,6 +27,7 @@ main {
     padding: 20px;
     width: 700px;
     gap:15px;
+    justify-content: center;
 }
 
 .introduction {
@@ -86,11 +87,11 @@ h2{
     background-color: rgb(198, 145, 198);
 }
 /* Responsiveness for iPad 600-1200 */
-@media screen and (width > 600px){
+@media screen and (width > 400px){
     .home-introduction{
+        display: flex;
         flex-direction: row;
     }
-
 }
 
 /* Responsiveness for 1200+ */
