@@ -68,7 +68,8 @@ main{
     height: 300px;
     text-align: justify;
   }
-
+/* Media Quereies for Projects */
+/* Media screens greater than 600px */
 @media screen and (width > 600px){
     .projects{
         display: flex;
@@ -84,8 +85,36 @@ main{
       height: 400px;
     }
   }
-@keyframes bounce {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-30px); }
-  100% { transform: translateY(0); }
-}
+    /* Media screens greater than 1200px */
+@media screen and (width > 1200px){
+      .projects{
+          display: flex;
+          flex: row;
+          flex-wrap:wrap;
+          gap:10px;
+          justify-content: space-around;
+          align-items: center;
+          margin: 10p;
+      }
+      .project-image{
+        width: 600px;
+        height: 600px;
+      }
+    }
+      /* Media screens greater than 1800px */
+@media screen and (width > 1800px){
+        .projects{
+            display: flex;
+            flex: row;
+            flex-wrap:wrap;
+            gap:10px;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10p;
+        }
+        .project-image{
+          width: 800px;
+          height: 800px;
+        }
+
+    }

@@ -125,7 +125,12 @@ footer{
     .social-media{
         display: flex;
         justify-content:center;
-
-
     }
+/* Animation to make aspects bounce */
+@keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-30px); }
+        100% { transform: translateY(0); }
+      }
+
 }

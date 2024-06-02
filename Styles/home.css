@@ -87,7 +87,7 @@ h2{
     background-color: rgb(198, 145, 198);
 }
 /* Responsiveness for iPad 600-1200 */
-@media screen and (width > 400px){
+@media screen and (width > 600px){
     .home-introduction{
         display: flex;
         flex-direction: row;
