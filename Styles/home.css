@@ -85,10 +85,13 @@ h2{
 .e:hover{
     background-color: rgb(198, 145, 198);
 }
-
+/* Responsiveness for iPad 600-1200 */
 @media screen and (width > 600px){
     .home-introduction{
         flex-direction: row;
     }
+
 }
+
+/* Responsiveness for 1200+ */
     

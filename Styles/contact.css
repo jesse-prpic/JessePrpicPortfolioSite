@@ -111,7 +111,7 @@ main {
     text-decoration: none;
 }
 /* Media Quer for > 800px for tablet  */
-@media screen and (width > 800px){
+@media screen and (width > 600px){
     form{
         width:500px;
         display: flex;
@@ -126,8 +126,10 @@ main {
     .form-input {
         width: 100%;
     }
+
+
 }
-@media screen and (width > 1000px){
+/* @media screen and (width > 1000px){
     form{
     width:500px;
     display: flex;
@@ -141,5 +143,4 @@ main {
 }
 .form-input {
     width: 100%;
-}
-}
+} */

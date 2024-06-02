@@ -17,6 +17,8 @@ The navigation is in front of the header, it is white and goes from 2% to 98% of
 The home page displays a info-card graphic of a photo of myself with my name, as well as "About me"
 the home page is also grey tones with a linear gradient to white
 
+![alt text](<Screenshot 2024-06-02 at 9.18.35 PM.png>)
+
 ### Projects
 The Projects page has a grey and white scale linear background, has an introduction to the page as well as 8 panels with project information
 
